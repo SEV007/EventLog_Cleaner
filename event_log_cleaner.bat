@@ -55,7 +55,6 @@ if "%var%"=="5" goto s5
 	powercfg -setacvalueindex SCHEME_CURRENT SUB_PROCESSOR PROCTHROTTLEMAX %cpu%
 	powercfg -setdcvalueindex SCHEME_CURRENT SUB_PROCESSOR PROCTHROTTLEMAX %cpu%
  	powercfg.exe -setactive SCHEME_CURRENT
-	REM echo DONE
  	cls
  	echo:
  	echo:
