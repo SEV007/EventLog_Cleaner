@@ -1,0 +1,8 @@
+c:\users\sev\documents\visual studio 2013\Projects\EventLogCleaner\EventLogCleaner\bin\Debug\EventLogCleaner.exe.config
+c:\users\sev\documents\visual studio 2013\Projects\EventLogCleaner\EventLogCleaner\bin\Debug\EventLogCleaner.exe
+c:\users\sev\documents\visual studio 2013\Projects\EventLogCleaner\EventLogCleaner\bin\Debug\EventLogCleaner.pdb
+c:\users\sev\documents\visual studio 2013\Projects\EventLogCleaner\EventLogCleaner\obj\Debug\EventLogCleaner.Form1.resources
+c:\users\sev\documents\visual studio 2013\Projects\EventLogCleaner\EventLogCleaner\obj\Debug\EventLogCleaner.Properties.Resources.resources
+c:\users\sev\documents\visual studio 2013\Projects\EventLogCleaner\EventLogCleaner\obj\Debug\EventLogCleaner.csproj.GenerateResource.Cache
+c:\users\sev\documents\visual studio 2013\Projects\EventLogCleaner\EventLogCleaner\obj\Debug\EventLogCleaner.exe
+c:\users\sev\documents\visual studio 2013\Projects\EventLogCleaner\EventLogCleaner\obj\Debug\EventLogCleaner.pdb
