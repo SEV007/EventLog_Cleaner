@@ -12,8 +12,9 @@ echo ################ MENU ################
 echo # 1) Update/Generate cleaner.bat     #
 echo # 2) Clean logs                      #
 echo # 3) Set CPU Limit                   #
-echo # 4) Remove cleaner.bat              #
-echo # 5) Exit                            #
+echo # 4) Clean Disk                      #
+echo # 5) Remove cleaner.bat              #
+echo # 6) Exit                            #
 echo ###################################### 
 
 set /p var=Select Option: 
@@ -22,6 +23,7 @@ if "%var%"=="2" goto s2
 if "%var%"=="3" goto s3
 if "%var%"=="4" goto s4
 if "%var%"=="5" goto s5
+if "%var%"=="6" goto s6
 
 :s1
 	wevtutil el > tmp.txt
@@ -63,6 +65,14 @@ if "%var%"=="5" goto s5
 	goto menu
 
 :s4
+	cleanmgr /D %SYSTEMDRIVE%
+	cls
+	echo:
+	echo:
+	echo WINDOWS DRIVE IS CLEAN
+	goto menu
+
+:s5
 	erase cleaner.bat
 	cls
 	echo:
@@ -71,5 +81,5 @@ if "%var%"=="5" goto s5
 	echo:
 	goto menu
 
-:s5
+:s6
 	exit
